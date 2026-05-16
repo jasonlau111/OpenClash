@@ -1,0 +1,11 @@
+# 国内检测/测速站点
+# 用途：检查国内连通性、本地 IPv4/IPv6、国内测速结果。
+# 说明：这些站点如果走“检测测速”组，面板里选 DIRECT 可看本地出口，选节点可看节点出口。
+
+# IP/IPv6 检测
+DOMAIN-SUFFIX,ipw.cn
+DOMAIN-SUFFIX,ip111.cn
+
+# 国内测速/连通性
+DOMAIN-SUFFIX,speedtest.cn
+DOMAIN-SUFFIX,ustc.edu.cn

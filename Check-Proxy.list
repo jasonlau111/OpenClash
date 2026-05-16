@@ -1,0 +1,50 @@
+# 海外出口/IP/DNS 泄漏检测与测速站点
+# 用途：检查节点出口 IP、DNS 泄漏、浏览器指纹、海外测速。
+# 说明：这些站点通常应走“检测测速”组里的某个节点；选 DIRECT 时看到的是本地宽带出口。
+
+# Google / IPv6 / 云服务检测
+IP-CIDR,142.251.215.0/24,no-resolve
+DOMAIN-SUFFIX,vultr.com
+DOMAIN-SUFFIX,test-ipv6.com
+DOMAIN-SUFFIX,ipcheck.im
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,sspanel.net
+
+# 海外测速
+DOMAIN,speed.cloudflare.com
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,speedcheck.org
+DOMAIN-SUFFIX,speedtest.net
+
+# DNS / IP 泄漏检测
+DOMAIN-SUFFIX,dnscheck.tools
+DOMAIN-SUFFIX,dnsleaktest.org
+DOMAIN-SUFFIX,dnsleaktest.com
+DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,browserleaks.com
+DOMAIN-SUFFIX,browserleaks.org
+DOMAIN-SUFFIX,browserleaks.net
+DOMAIN-SUFFIX,browserscan.net
+DOMAIN-SUFFIX,whoer.net
+DOMAIN-SUFFIX,incolumitas.com
+
+# 出口 IP / 风险评分
+DOMAIN-SUFFIX,jsonp-ip.com
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ip-score.com
+DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,ip125.com
+DOMAIN-SUFFIX,ping0.cc
+DOMAIN-SUFFIX,addr.tools
+
+# VPN / 安全检测
+DOMAIN-SUFFIX,surfshark.com
+DOMAIN-SUFFIX,surfsharkdns.com
+DOMAIN-SUFFIX,1-b.net
+DOMAIN-SUFFIX,888005.xyz
+DOMAIN-SUFFIX,null-addr.com
+DOMAIN-SUFFIX,null-addr.net
+DOMAIN-SUFFIX,null-addr.org
+DOMAIN-SUFFIX,null-addr.biz
+DOMAIN-SUFFIX,null-addr.info
+DOMAIN-SUFFIX,skk.moe
