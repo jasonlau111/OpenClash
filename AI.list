@@ -13,14 +13,28 @@ DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,static.cloudflareinsights.com
+DOMAIN,cdn.openaimerge.com
+DOMAIN,cdn.workos.com
+DOMAIN,challenges.cloudflare.com
+DOMAIN,featureassets.org
+DOMAIN,forwarder.workos.com
+DOMAIN,humb.apple.com
+DOMAIN,images.workoscdn.com
+DOMAIN,prodregistryv2.org
+DOMAIN,rum.browser-intake-datadoghq.com
+DOMAIN,setup.workos.com
+DOMAIN,statsigapi.net
+DOMAIN,workos.imgix.net
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,chatgpt
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,auth.openai.com
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,ct.sendgrid.net
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
@@ -38,6 +52,7 @@ DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,statsig.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,turn.livekit.cloud
 IP-CIDR,24.199.123.28/32,no-resolve
@@ -49,18 +64,35 @@ DOMAIN,cdn.usefathom.com
 DOMAIN,servd-anthropic-website.b-cdn.net
 PROCESS-NAME,Claude
 PROCESS-NAME,Claude Helper
+DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,circumlunar.space
 DOMAIN-SUFFIX,usefathom.com
 
 # ================== Gemini (Google AI) ==================
+DOMAIN,ai.dev
 DOMAIN,ai.google.dev
+DOMAIN,aistudio.google.com
+DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,content-developerprofiles-pa.googleapis.com
+DOMAIN,developerprofiles-pa.googleapis.com
+DOMAIN,fonts.googleapis.com
 DOMAIN,makersuite.google.com
+DOMAIN,people-pa.clients6.google.com
+DOMAIN,robinfrontend-pa.googleapis.com
+DOMAIN,waa-pa.clients6.google.com
+DOMAIN,www.google-analytics.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,antigravity
+DOMAIN-SUFFIX,antigravity.ai
+DOMAIN-SUFFIX,antigravity.dev
+DOMAIN-SUFFIX,antigravity.google
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,deepmind.com
@@ -75,6 +107,7 @@ DOMAIN-SUFFIX,waa-pa.clients6.google.com
 DOMAIN-SUFFIX,people-pa.clients6.google.com
 DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,clients6.google.com
+DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,gstatic.com
 
 # ================== Grok (xAI) ==================
@@ -194,6 +227,22 @@ DOMAIN-SUFFIX,together.xyz
 # Groq
 DOMAIN-SUFFIX,groq.com
 
+# ================== Apple Intelligence / Private Relay ==================
+DOMAIN-KEYWORD,apple-relay
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+
+# ================== Connectivity Check ==================
+DOMAIN-SUFFIX,ip.sb
+DOMAIN-SUFFIX,ipify.org
+DOMAIN-SUFFIX,ip111.cn
 
 
 
