@@ -5,6 +5,10 @@
 # 更新日期: 2025-01-21
 # ============================================
 
+# ================== 自家模型 API ==================
+DOMAIN,api.jason9992520.ccwu.cc
+DOMAIN,api.jason9992520.top
+
 # ================== OpenAI/ChatGPT ==================
 DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
@@ -243,7 +247,6 @@ DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,ip111.cn
-
 
 
 
