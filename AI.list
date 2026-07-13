@@ -1,6 +1,6 @@
 # ============================================
 # AI 分流规则合集
-# 包含: ChatGPT/OpenAI, Claude, Gemini, Grok, Copilot, Perplexity 等
+# 包含: ChatGPT/OpenAI, Claude, Gemini, Copilot, Perplexity 等
 # 整合来源: blackmatrix7/ios_rule_script + 补充规则
 # ============================================
 
@@ -112,13 +112,6 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,clients6.google.com
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,gstatic.com
-
-# ================== Grok (xAI) ==================
-PROCESS-NAME,grok
-DOMAIN-KEYWORD,grok
-DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,grok.x.ai
 
 # ================== Copilot (Microsoft Bing) ==================
 DOMAIN,api.msn.com

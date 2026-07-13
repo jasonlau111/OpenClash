@@ -6,12 +6,13 @@
 
 | 文件 | 用途 |
 | --- | --- |
-| `AI.list` | AI 服务与自用模型 API 的分流规则 |
+| `AI.list` | xAI / Grok 之外的 AI 服务与自用模型 API 分流规则 |
 | `Check-CN.list` | 国内 IP、IPv6、测速与连通性检测站点 |
 | `Check-Proxy.list` | 海外出口 IP、DNS 泄漏、风险评分与测速站点 |
 | `Direct.list` | 国内域名、DNS 与个人域名的直连补充规则 |
 | `Douyin.list` | 抖音及字节跳动国内服务的独立规则集 |
 | `ProxyLite.list` | 国外 DNS、域名和 IP 的代理补充规则 |
+| `X.list` | xAI 与 Grok 的独立分流规则 |
 | `Clash-LIAN.ini` | 订阅转换远程配置，定义规则集、策略组和节点组 |
 
 ## 使用
@@ -27,6 +28,7 @@ https://raw.githubusercontent.com/jasonlau111/OpenClash/main/<文件名>
 ```text
 https://raw.githubusercontent.com/jasonlau111/OpenClash/main/AI.list
 https://raw.githubusercontent.com/jasonlau111/OpenClash/main/Direct.list
+https://raw.githubusercontent.com/jasonlau111/OpenClash/main/X.list
 ```
 
 `Clash-LIAN.ini` 可作为订阅转换工具的远程配置使用：
