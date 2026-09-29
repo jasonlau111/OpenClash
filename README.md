@@ -11,6 +11,8 @@
 | `Check-Proxy.list` | 海外出口 IP、DNS 泄漏、风险评分与测速站点 |
 | `Direct.list` | 国内域名、DNS 与个人域名的直连补充规则 |
 | `Douyin.list` | 抖音及字节跳动国内服务的独立规则集 |
+| `TikTok.list` | TikTok 国际版、TikTok Shop 与字节海外服务 |
+| `Amazon.list` | Amazon 海外购物站点（不含 amazon.cn 与 AWS） |
 | `ProxyLite.list` | 国外 DNS、域名和 IP 的代理补充规则 |
 | `X.list` | xAI 与 Grok 的独立分流规则 |
 | `Clash-LIAN.ini` | 订阅转换远程配置，定义规则集、策略组和节点组 |

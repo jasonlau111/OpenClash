@@ -1,0 +1,30 @@
+# Amazon 购物（海外站）
+# 用途：Amazon 各国商城、商品图片、支付与登录。
+# 注意：不含 amazon.cn（国内站直连）和 amazonaws.com（AWS 云服务，大量普通网站依赖）。
+
+# Stores
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN-SUFFIX,amazon.co.uk
+DOMAIN-SUFFIX,amazon.de
+DOMAIN-SUFFIX,amazon.ca
+DOMAIN-SUFFIX,amazon.com.au
+DOMAIN-SUFFIX,amazon.sg
+DOMAIN-SUFFIX,amazon.fr
+DOMAIN-SUFFIX,amazon.it
+DOMAIN-SUFFIX,amazon.es
+
+# Images / static
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,ssl-images-amazon.com
+DOMAIN-SUFFIX,images-amazon.com
+
+# Pay / login / ads
+DOMAIN-SUFFIX,amazon-adsystem.com
+DOMAIN-SUFFIX,amazontrust.com
+DOMAIN-SUFFIX,amazonpay.com
+DOMAIN-SUFFIX,amazonpay.in
+DOMAIN-SUFFIX,a2z.com
+DOMAIN-SUFFIX,amazon.dev
+DOMAIN-SUFFIX,assoc-amazon.com
+DOMAIN-SUFFIX,amazonforum.com

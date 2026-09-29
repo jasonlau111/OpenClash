@@ -1,0 +1,26 @@
+# TikTok / TikTok Shop 国际版
+# 用途：TikTok App、网页、CDN、TikTok Shop 与字节海外基础服务。
+# 注意：snssdk.com、bytedance.com 等国内共用域名留在 Douyin.list，避免抖音国内版被带出境。
+
+DOMAIN-KEYWORD,tiktok
+
+# ByteDance overseas services
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,bytedapm.com
+DOMAIN-SUFFIX,bytegecko-i18n.com
+DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,ttwebview.com
+DOMAIN-SUFFIX,ttwstatic.com
+DOMAIN-SUFFIX,byteeffecttos-g.com
+
+# TikTok Shop（DOMAIN-KEYWORD 已覆盖，显式保留便于检索）
+DOMAIN-SUFFIX,tiktokshop.com
+DOMAIN-SUFFIX,tiktokglobalshop.com
